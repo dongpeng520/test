@@ -1,0 +1,6 @@
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:Jsmond2016/my-study.git
+git pull origin master --allow-unrelated-histories
+git push -u origin master
